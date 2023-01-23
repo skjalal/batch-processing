@@ -1,0 +1,10 @@
+pluginManagement {
+    plugins {
+        id 'org.springframework.boot' version SPRING_BOOT_VERSION
+        id 'io.spring.dependency-management' version SPRING_PLUGIN_VERSION
+    }
+    repositories {
+        gradlePluginPortal()
+    }
+}
+rootProject.name = 'batch-processing'
